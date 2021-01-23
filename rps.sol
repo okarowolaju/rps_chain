@@ -50,7 +50,6 @@ contract RPS {
             if (choices[Player1] == ROCK && choices[Player2] == PAPER) {
                 return choices[Player2];
                 
-            // paper still beats rock (played in opposite alice/bob)
             } else if (choices[Player1] == PAPER && choices[Player2] == ROCK) {
                 return choices[Player2];
                 
